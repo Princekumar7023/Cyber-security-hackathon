@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Cybersecurity Simulation</title>
+</head>
+<body>
+    <style>
+		body {
+		  background-image: url('hi.png');
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+		}
+		</style>
+    <div class="container">
+        <h1>Cybersecurity Simulation</h1>
+        <p>Select a scenario to simulate:</p>
+        <button onclick="startSimulation('phishing')">Phishing Attack</button>
+        <button onclick="startSimulation('sql-injection')">SQL Injection</button>
+        <button onclick="startSimulation('xss')">XSS Attack</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
