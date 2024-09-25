@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Leader Board using HTML CSS and Javascript</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<style>
+		body {
+		  background-image: url('back1.jpeg');
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+		}
+		</style>
+	<section class="blog" id="blog">
+		<div class="section__container blog__container">
+		  <!-- <p class="section__subheader">CyberSecure</p> -->
+		  <br/>
+		  <h2 class="section__header">Courses</h2>
+		  <div class="blog__grid">
+			<div class="blog__card">
+			  <img src="download.jpeg" alt="blog" />
+			  <div>
+				<span><i class="ri-user-line"></i> By David</span>
+				<span><i class="ri-time-line"></i> Jun 28, 2022</span>
+				<span><i class="ri-thumb-up-line"></i> 5</span>
+			  </div>
+			  <a href="https://www.cisco.com/c/en_in/products/security/what-is-cybersecurity.html">What is Cybersecurity<a>
+			  <p>
+			   Cybersecurity is the practice of protecting systems, networks, and data from digital attacks, unauthorized access, or damage
+			  </p>
+			</div>
+			<div class="blog__card">
+			  <img src="img.png" alt="blog" />
+			  <div>
+				<span><i class="ri-user-line"></i> By Sarah</span>
+				<span><i class="ri-time-line"></i> Nov 22, 2022</span>
+				<span><i class="ri-thumb-up-line"></i> 18</span>
+			  </div>
+			  <a href="https://www.cisa.gov/cybersecurity-awareness-month">National Cybersecurity Awareness</a>
+			  <p>
+				National Cybersecurity Awareness Month (NCSAM) is observed every October to raise awareness about the importance of cybersecurity. 
+			  </p>
+			</div>
+			<div class="blog__card">
+			  <img src="ima.jpeg" alt="blog" />
+			  <div>
+				<span><i class="ri-user-line"></i> By Michael</span>
+				<span><i class="ri-time-line"></i> Mar 15, 2023</span>
+				<span><i class="ri-thumb-up-line"></i> 20</span>
+			  </div>
+			  <a href="https://learnsecurity.amazon.com/en/index.html">Cybersecurity awareness training</a>
+			  <p>
+				Cybersecurity awareness training is designed to educate individuals and organizations about the importance of protecting sensitive information and staying safe online.
+			  </p>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="banner">
+		<p>leaderboards</p>
+	  </section>
+<div class="wrapper">
+	<div class="lboard_section">
+		<div class="lboard_tabs">
+			<div class="tabs">
+				<ul>
+					<li data-li="today">Today</li>
+					<li class="active" data-li="month">Month</li>
+					<li data-li="year">Year</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="lboard_wrap">
+			<div class="lboard_item today" style="display: none;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span> Charles John</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 95%"></div>
+						</div>
+					</div>
+					<div class="points">
+						195 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>Alex Mike</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 80%"></div>
+						</div>
+					</div>
+					<div class="points">
+						185 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>Johnson</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 60%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						160 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>Rosey</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 30%"></div>
+						</div>
+					</div>
+					<div class="points">
+						130 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_5.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>Scarlett Angela</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 10%"></div>
+						</div>
+					</div>
+					<div class="points">
+						110 points
+					</div>
+				</div>
+			</div>
+			<div class="lboard_item month" style="display: block;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span> Alex Mike</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 95%"></div>
+						</div>
+					</div>
+					<div class="points">
+						1195 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_3">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>Johnson</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 80%"></div>
+						</div>
+					</div>
+					<div class="points">
+						1185 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>Charles John</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 70%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						1160 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_5.png" alt="picture_5">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>Scarlett Angela</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 50%"></div>
+						</div>
+					</div>
+					<div class="points">
+						1130 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_4">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>Rosey</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 30%"></div>
+						</div>
+					</div>
+					<div class="points">
+						1110 points
+					</div>
+				</div>
+			</div>
+			<div class="lboard_item year" style="display: none;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_5.png" alt="picture_5">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span>Scarlett Angela</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 90%"></div>
+						</div>
+					</div>
+					<div class="points">
+						2195 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_4">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>Rosey</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 85%"></div>
+						</div>
+					</div>
+					<div class="points">
+						2185 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_3">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>Johnson</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 65%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						2160 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>Charles John</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 30%"></div>
+						</div>
+					</div>
+					<div class="points">
+						2130 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>Alex Mike</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 10%"></div>
+						</div>
+					</div>
+					<div class="points">
+						2110 points
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+<script src="scripts.js"></script>
+</body>
+</html>
